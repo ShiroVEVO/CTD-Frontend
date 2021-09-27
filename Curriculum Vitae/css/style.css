@@ -1,0 +1,44 @@
+#iconoSuperior{
+    width: 150px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+h1{
+    background-color:#53b54a;
+}
+
+h3{
+    background-color: #53b54a;
+}
+
+.negritaItalic{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.contenido{
+    margin:unset;
+    background-color: #bce2b9;
+}
+
+.tab{
+    margin-left:8%;
+}
+
+footer{
+    align-content: center;
+    background-color: #2b7824;
+    color: #ffffff;
+    padding: 1%;
+}
+
+img{
+    margin-left: 1%;
+}
