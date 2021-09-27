@@ -1,3 +1,6 @@
+body{
+    margin: 0%;
+}
 footer{
     align-content: center;
     background-color: #2b7824;
@@ -24,7 +27,6 @@ img{
 
 .contenido{
     margin:0%;
-    background-color: #bce2b9;
 }
 
 .negritaItalic{
@@ -33,11 +35,12 @@ img{
 }
 
 .negrita{
+    margin-left: 1%;
     font-weight: bold;
 }
 
 .tab{
-    margin-left:8%;
+    margin-left:5%;
 }
 
 #iconoSuperior{
