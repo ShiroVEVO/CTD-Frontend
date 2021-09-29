@@ -1,48 +1,76 @@
+@font-face {
+    font-family: NeuzeitGro;
+    src: url('../fonts/NeuzeitGro-Reg.ttf')}
+
 body{
     margin: 0%;
-}
+    font-family: NeuzeitGro;}
+
 footer{
     align-content: center;
     background-color: #2b7824;
     color: #ffffff;
-    padding: 1%;
-}
+    font-size: 35px;
+    padding: 1%;}
 
 h1{
     text-align: center;
-    background-color:#53b54a;
-}
+    background-color:#53b54a;}
 
 h3{
-    background-color: #53b54a;
-}
+    background-color: #53b54a;}
 
 img{
-    margin-left: 1%;
-}
+    margin-left: 1%;}
+
+.botones_iconos_pequeños{
+    width: 30px;}
 
 .centrado{
-    text-align: center;
-}
+    text-align: center;}
 
 .contenido{
-    margin:0%;
-}
+    margin:0%;}
 
 .negritaItalic{
     font-weight: bold;
-    font-style: italic;
-}
+    font-style: italic;}
 
 .negrita{
     margin-left: 1%;
-    font-weight: bold;
-}
+    font-weight: bold;}
 
 .tab{
-    margin-left:5%;
+    margin-left:5%;}
+
+#banner{
+    background-image: url(../img/Fondo_Banner.jpg);
+    background-position: center;
+    background-color: #ffffff;
+    height: 250px;
+    padding: 1%;
+
 }
 
 #iconoSuperior{
-    width: 150px;
+    width: 150px;}
+
+#intro{
+    background-color:#ece5bd;
+    border-radius: 5%;
+    width: 49%;
+    text-align: center;
+    height: 87%;
+    padding: 1%;
+    display:inline-flex;
+    float: right;
+    
 }
+
+#foto{
+    width: 49%;
+    text-align: center;
+    display:inline;
+    float: left;
+}
+
