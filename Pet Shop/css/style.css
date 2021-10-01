@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Regular.ttf')}
+
+/*------------------------------------------Elemento-------------------------------------------------*/
+a{
+    color: #ffffff;
+    text-decoration: none;}
+
+body{
+   font-family: Roboto;
+   font-weight: 400;
+   margin: 0%;}
+
+h1,h2,h3{
+    font-weight: 700;}
+
+h3{
+    color: #ffffff;}
+
+/*---------------------------------------------Clases-------------------------------------------------*/
+.producto{
+    font-weight: 500;}
+
+.producto p{
+    color: #3C2313;}
+
+.producto span{
+    color: #F0A83E;}
+
+/*------------------------------------------------ID-------------------------------------------------*/
+#banner{
+    background-image: url(../img/Banner\ principal.png);
+    background-size: cover;
+    height: 800px;}
+
+#barraNav{
+    background-color: #F0A83E;
+    color: #ffffff;
+    text-decoration: none;}
+
+#contacto p{
+    color: #ffffff;}
+
+#derechosReservados{
+    background-color: #222222;
+    color: #ffffff;}
+
+#idiomaMoneda{
+    background-color: #222222;
+    color: #ffffff;}
+
+#informacion{
+    background-color: #3C2313;}
+
+#productosDestacados i{
+    color:#F0A83E;
+    font-size: 100px;}
+
+#productosDestacados a{
+    color: #666666;}
+
+#productosDestacados h1,h2{
+    color: #3C2313;}
+
+#suscripcion{
+    background-color: #F0A83E;}
