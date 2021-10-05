@@ -4,10 +4,9 @@
 }
 
 *{
-    box-sizing: border-box;
-    margin: 0%;
     font-family: Roboto;
     font-weight: 400;
+    margin: 0%;
 }
 
 a{
@@ -15,53 +14,45 @@ a{
     color: #F3F3F3;
 }
 
+main{
+    height: 1000px;
+}
+
 .iconoHeroe img{
     width: 130px;
     height: 130px;
     border-radius: 100px;
-    position: relative;
-    left: 40px;
-    bottom: 65px;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-}
-
-main{
-    height: 1200px;
 }
 
 footer{
     background-color: #00669F;
-    box-sizing: border-box;
     color: #FFF9F9;
     font-size: 16px;
     padding: 16px;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
 }
 
 i{
     color: #CC2424;
     font-size: 30px;
-    margin-left: 15px;
-    position: relative;
-    bottom: 280px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
 }
 
 .heroe {
-    background-color: #F3F3F3;
-    border-radius: 16px 16px 0px 0px;
-    display: inline-block;
-    box-sizing: border-box;
-    height: 530px;
-    width: 300px;
     position: relative;
-    top: 154px;
-    margin-left: 12%;
+    background-color: #F3F3F3;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 16px 16px 0px 0px;
+    height: 527px;
+    width: 300px;
 }
 
 .heroe p{
     font-size: 16px;
+    padding: 16px;
 }
 
 .heroe h2{
@@ -69,47 +60,27 @@ i{
     text-align: center;
 }
 
-.inferior{
-    display: inline-block;
-    background-color: #FFF9F9;
-    width: 100%;
-    position: relative;
-    bottom: 100px;
-
-}
 .verMas{
     background-color: #00669F;
-    display: inline-block;
+    box-sizing: border-box;
     font-size: 15px;
     text-align: center;
     width: 128.78px;
     height: 48.52px;
     padding-top: 15px;
-    margin-left: 85px;
-    margin-bottom: 20px;
-}
-
-header{
-    position: relative;
-    top:0px;
 }
 
 #descuentos{
     background-color: #1CD1B0;
-    box-sizing: border-box;
     font-size: 15px;
     padding: 10px;
-    width: auto;
-    position: relative;
-    top: 0px;
 }
 
 #pegada{
-    box-sizing: border-box;
     padding: 28px;
     font-size: 20px;
     background-color: #00669F;
-    position: sticky;
-    top: 0;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    position: sticky;
+    top: 0%;
 }
