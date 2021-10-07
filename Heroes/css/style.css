@@ -96,4 +96,5 @@ main{
     font-size: 20px;
     padding: 28px;
     position: sticky;
-    top: 0%;}
+    top: 0%;
+    z-index: 1;}
