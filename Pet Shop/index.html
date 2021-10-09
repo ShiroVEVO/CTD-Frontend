@@ -18,7 +18,7 @@
             </div>
 
             <div id="barraNav">
-                <img src="img/LogoHeader.png" width="167">
+                <img src="img/LogoHeader.png">
                 <nav>
                     <ul>
                         <li><i class="fas fa-paw"></i><a href="#">Categorías</a></li>
@@ -31,12 +31,15 @@
         </header>
         
         <main>
-            <section id = "banner" class="centrado">
-                <span>¡Es un placer tenerte aquí!</span>
-                <p>¡Comederos en descuento!</p>
-                <div id="comederos">
-                    <p>COMEDEROS</p>
+            <section id = "banner">
+                <div id = "derecho" class="centrado">
+                    <span>¡Es un placer tenerte aquí!</span>
+                    <p>¡Comederos en descuento!</p>
+                    <div id="comederos">
+                        <p>COMEDEROS</p>
+                    </div>
                 </div>
+                
            </section>
 
            <section id="productosDestacados">
@@ -75,46 +78,52 @@
            <section id="contacto">
                 <div class="centrado">
                     <h2>Contáctanos</h2>
-                    <div><p>Nombres y Apellidos</p></div>
-                    <div><p>Ingresá tu correo electrónico</p></div>
-                    <div> <p>Teléfono</p></div>
+                    <div class="campos"><p>Nombres y Apellidos</p></div>
+                    <div class="campos"><p>Ingresá tu correo electrónico</p></div>
+                    <div class="campos"><p>Teléfono</p></div>
                 </div>
-                <div id="botonResetear"><p>Resetear</p></div>
-                <div id="botonEnviar"><p>Enviar</p></div>
+                <div>
+                    <div id="botonResetear"><p>Resetear</p></div>
+                    <div id="botonEnviar"><p>Enviar</p></div>
+                </div>
+                
            </section>
            
            <section id="suscripcion">
                 <img src="img/Icono Correo.png">
-                <h3>Sucríbete para más novedades</h3>
+                <h3>Suscríbete para más novedades</h3>
                 <div>Ingresá tu correo electrónico</div>
-                <div>Suscribirme</div>
+                <div id = botonSuscribirme>Suscribirme</div>
            </section>
         </main>
 
         <footer>
-            <section id="informacion" class="centrado">
-                <div class="centrado">
-                    <img src="img/Icono Localidad.png">
+            <section id="informacion">
+                <div>
+                    <img src="img/Icono Localidad.png"> 
                     <h6>Localidad</h6>
                     <p>Calle - provincia</p>
                 </div>
-                <div class="centrado">
+
+                <div>
                     <img src="img/Icono Telefono.png">
                     <h6>Teléfono</h6>
                     <p>Número de Teléfono</p>
                 </div>
-                <div class="centrado">
+              
+                <div>
                     <img src="img/Icono Correo Electronico.png">
                     <h6>Correo Electrónico</h6>
                     <p>Dirección de correo</p>
                 </div>
 
-                <div><img src="img/Logo.png"></div>
+                <img src="img/Logo.png" id="logo">
             </section>
 
             <section id="IconosRedesSociales">
                 <p>aca iran redes sociales</p>
             </section>
+
             <section id="derechosReservados">
                 <p>Todos los derechos reservados Front End</p>
             </section>

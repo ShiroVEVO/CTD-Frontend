@@ -19,11 +19,16 @@ h3{
     color: #ffffff;}
 
 /*---------------------------------------------Clases-------------------------------------------------*/
+.centrado{
+    align-items: center;
+    display: flex;
+    flex-direction: column;}
+
 .producto{
     font-weight: 500;
-    width: 265px;
     margin-left: 2%;
-    text-align: center;}
+    text-align: center;
+    width: 265px;}
 
 .producto p{
     color: #3C2313;}
@@ -39,69 +44,142 @@ h3{
 
 #banner span{
     background-color: #ffffff;
-    font-size: 30px;
-    padding: 9px 10px 10px 10px;
     border-radius: 5px;
-}
+    font-size: 30px;
+    padding: 9px 10px 10px 10px;}
+
 #barraNav{
+    align-content: flex-start;
     background-color: #F0A83E;
+    box-sizing: border-box;
     color: #ffffff;
-    text-decoration: none;
     display: flex;
-}
+    flex-flow: column wrap;
+    height: 60px;
+    padding-top: 19px;
+    text-decoration: none;}
+
+#barraNav img{
+    margin: 0px 60% 20px 40px;}
 
 #barraNav ul{
     display: flex;
-}
+    list-style: none;
+    margin-top: 0%;}
+
+#barraNav li{
+    margin-left: 30px;}
+
+#botonResetear{
+    background-color: #8A8787;
+    display: inline-block;
+    font-size: 26px;
+    padding: 8px 27px 8px 27px;
+    border-radius: 35px;
+    margin-top: 5%;
+    margin-right: 20px;}
+
+#botonResetear p{
+    margin: 0%;}
+
+#botonEnviar{
+    background-color: #F0A83E;
+    border-radius: 35px;
+    display: inline-block;
+    font-size: 26px;
+    padding:8px 44px 8px 42px;}
+
+#botonEnviar p{
+    margin: 0%;}
 
 #contacto{
-    margin-top: 85px;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+    margin-top: 85px;}
+
+#contacto .campos{
+    background-color: #3C2313;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 15px 0px 14px 24px;
+    width:440px;}
 
 #contacto h2{
-    font-weight: 700;
-    font-size: 25;
     color: #3C2313;
-}
+    font-size: 25;
+    font-weight: 700;}
+
 #contacto p{
     color: #ffffff;}
 
 #comederos{
     background-color: #F0A83E;
+    border-radius: 5px;
+    box-sizing: border-box;
     color: #ffffff;
-    width: 141px;
+    font-size: 16px;
     height: 49px;
     text-align: center;
-    font-size: 16px;
-    box-sizing: border-box;
-    border-radius: 5px;
-}
+    width: 141px;}
+
+#derecho{
+    left: 50%;
+    position: relative;
+    top: 40%;
+    width: 50%;}
 
 #derechosReservados{
     background-color: #222222;
-    color: #ffffff;}
+    color: #ffffff;
+    padding: 4px 0px 4px;
+    text-align: center;}
 
 #idiomaMoneda{
     background-color: #222222;
     color: #ffffff;
-    display: flex;
-}
+    display: flex;}
 
 #informacion{
-    background-color: #3C2313;}
+    background-color: #3C2313;
+    color: #8A8787;
+    padding: 0.5% 2% 2% 2%;
+    position: relative;}
+
+#informacion h6{
+    color:#ffffff;
+    font-size: 30px;
+    margin: 0.5% 0% 0% 0.5%;}
+
+#informacion p{
+    margin-left: 0.5%;
+    margin-top: 0%;}
+
+#informacion div{
+    left: 5%;
+    margin-top: 2%;
+    position: relative;}
+
+#informacion img{
+    position: absolute;
+    right: 100%;
+    top: 0.5%;
+    width: 66px;}
+
+#informacion #logo{
+    left:81%;
+    position: absolute;
+    right: 0%;
+    top: 45%;
+    width: 266px;}
 
 #listadoProductos{
     display: flex;
-    justify-content:center;
-}
+    justify-content:center;}
 
-#superior{
-    display: flex;
-    justify-content: center;
-}
+#productosDestacados{
+    margin-top: 4%;}
+
 #productosDestacados ul{
     display: flex;
     list-style: none;}
@@ -125,6 +203,34 @@ h3{
     color: #3C2313;}
 
 #suscripcion{
-    margin-top: 85px;
+    align-content: flex-start; 
     background-color: #F0A83E;
-    display: flex;}
+    display: flex;
+    flex-flow: column wrap;
+    height: 60px;
+    margin-top: 85px;
+    padding: 13px;}
+
+#suscripcion div{
+    background-color: #ffffff;
+    border-radius: 25px;
+    color: #A0A0A0;
+    margin-right: 10px;
+    padding: 21px 16px 17px 17px;
+    width: 371px;}
+
+#suscripcion h3{
+    margin-left: 1%;
+    margin-right: 50%;}
+
+#suscripcion img{
+    margin-top: 0.5%;}
+
+#suscripcion #botonSuscribirme{
+    background-color: #3C2313;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 16px 17px 17px;
+    width: auto;}
