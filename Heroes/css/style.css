@@ -111,6 +111,9 @@ main{
 }
 
 @media (max-width: 480px){
+    body{
+        height: 200vh;}
+
     main{
         margin-bottom: 25%;}
     

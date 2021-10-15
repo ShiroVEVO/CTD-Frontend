@@ -40,7 +40,7 @@ h3{
 #banner{
     background-image: url(../img/Banner\ principal.png);
     background-size: cover;
-    height: 800px;}
+    height: 90vh;}
 
 #banner span{
     background-color: #ffffff;
@@ -60,7 +60,7 @@ h3{
     text-decoration: none;}
 
 #barraNav img{
-    margin: 0px 60% 20px 40px;}
+    margin: 0px 60vw 20px 40px;}
 
 #barraNav ul{
     display: flex;
@@ -234,3 +234,16 @@ h3{
     font-weight: 700;
     padding: 18px 16px 17px 17px;
     width: auto;}
+
+@media (max-width: 480px){
+    #listadoProductos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #informacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
