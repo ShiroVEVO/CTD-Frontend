@@ -1,0 +1,67 @@
+/*--------------------------------------------------------GENERALES-------------------------------------------------------*/
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);}
+
+*{
+    font-family: Roboto;
+    font-weight: 400;
+    margin: 0%;}
+
+/*--------------------------------------------------------ELEMENTOS-------------------------------------------------------*/
+a{
+    color: #00669F;
+    text-decoration: none;}
+
+
+main{
+    background-color: #FFFFFF;/*prov*/
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20vh;}
+
+footer {
+    background-color: #00669F;
+    bottom: 1095px;
+    color: #FFF9F9;
+    font-size: 16px;
+    padding: 16px;}
+
+form {
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main{
+    height: 80vh;}
+
+main h2{
+    font-weight: 700;
+    font-size: 4rem;
+    color: #333333;}
+
+/*--------------------------------------------------------ID's------------------------------------------------------------*/
+#descuentos {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 10px;}
+
+#pegada {
+    background-color: #00669F;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 12px;
+    position: sticky;        
+    top: 0%;
+    z-index: 1;}
+    
+#pegada h1 {
+    color: #ffffff;
+    position: relative;
+    bottom: 2vh;
+    margin-left: 1%;}
+
+#pegada * {
+    display: inline-block;}

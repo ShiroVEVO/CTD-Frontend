@@ -91,14 +91,36 @@ main{
     font-size: 15px;
     padding: 10px;}
 
-#pegada{
-    background-color: #00669F;
+#navegacion{
+    background-color: #001D2D;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    display: flex;
+    padding: 11px 20px 10px 81vw;
+    position: sticky;
+    top: 9%;
+    z-index: 1;}
+
+#navegacion a{
+    margin-left: 2vw;}
+
+#pegada {
+    background-color: #00669F;
     font-size: 20px;
-    padding: 28px;
+    padding: 12px;
     position: sticky;
     top: 0%;
     z-index: 1;}
+
+#pegada h1{
+    color: #FFFFFF;
+    position: relative;
+    bottom: 25%;
+    margin-left: 1%;
+}
+#pegada *{
+    display: inline-block;}
+
 
 /*--------------------------------------------------------MediaQueries------------------------------------------------------------------*/
 
