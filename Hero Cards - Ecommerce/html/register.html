@@ -15,23 +15,27 @@
             <h1>Ecommerce</h1>
         </div>
     </header>
-    <main>
+
+    <main class = "agrandado">
         <h2>Registro</h2>
         <form>
-            <input type = "text" placeholder = "Nombre y Apellido" action = "" method = "" required name = "nombreApellido">
-            <input type = "email" placeholder="Correo Electrónico" action = "" method = "" required name = "correoElectrónico">
-            <input type = "password" placeholder="Contraseña" action = "" method = "" required name = "contraseña">
+            <input type = "text" placeholder = " Nombre y Apellido" action = "" method = "" required name = "nombreApellido">
+            <input type = "email" placeholder=" Correo Electrónico" action = "" method = "" required name = "correoElectrónico">
+            <input type = "password" placeholder=" Contraseña" action = "" method = "" required name = "contraseña">
             <select action = "" method = "" required name = "país">
-                <option value = "Colombia"</option>
-                <option value = "Argentina"></option>
-                <option value = "Chile"></option>
-                <option value = "Ecuador"></option>
+                <option hidden selected>país...</option>
+                <option value = "Colombia">Colombia</option>
+                <option value = "Argentina">Argentina</option>
+                <option value = "Chile">Chile</option>
+                <option value = "Ecuador">Ecuador</option>
             </select>
-            <textarea></textarea>
-            <input type = "submit" value = "Entrar">
-            <input type = "reset" value = "Resetear">
+            <div id = "botones">
+                <input type = "reset" value = "Resetear" class = "botonOscuro">
+                <input type = "submit" value = "Registrar" class = "botonClaro">  
+            </div>
         </form>
     </main>
+    
     <footer>
         <p>Todos los derechos reservados a FRONT END 1</p>
     </footer>
