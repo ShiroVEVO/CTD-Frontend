@@ -1,0 +1,216 @@
+/*--------------------------------------------GENERALES----------------------------------------------------------*/
+
+@font-face {
+    font-family: be_Vietnam;
+    src: url(../fonts/BeVietnam-Regular.ttf);}
+
+@font-face {
+        font-family: be_Vietnam_Bold;
+        src: url(../fonts/BeVietnam-Regular.ttf);}
+
+*{ 
+    font-family: be_Vietnam;
+    font-weight: 500;
+    margin: 0%;
+    text-decoration: none;}
+
+/*--------------------------------------------ELEMENTOS----------------------------------------------------------*/
+
+body{
+    background-color: #ffffff;}
+
+footer *{
+    list-style: none;}
+
+footer{
+    background-color: #1E1E26;
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 165px 52px 165px;}
+
+footer a{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;}
+
+footer a img{
+    margin-right: 14px;
+    margin-top: 67px;}
+
+footer input{
+    border: none;
+    border-radius: 50px;
+    height: 44px;}
+
+footer input[type="email"]{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding-left: 10px;
+    width: 201px;}
+
+footer input[type="submit"]{
+    background-color: #F3603B;
+    cursor: pointer;
+    width: 63px;}
+
+footer li{
+    margin-bottom: 12px;}
+
+footer form{
+    margin-bottom:74px;}
+
+footer p{
+    color: #8C8C94;}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 75px 190px 75px 190px;}
+
+/*---------------------------------------------CLASES------------------------------------------------------------*/
+.getStarted{
+    background-color: #F3603B;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    height: 44px;
+    text-align: center;
+    width: 134px;}
+
+.paralelas{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 11vw 15vh 11vw;
+    padding: 0px 165px;}
+    
+.paralelas h2{
+    color: #242E52;
+    font-family: be_Vietnam_Bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 36px;}
+
+.enColumna article{
+    position: relative;
+    width: 551px;}
+
+.enColumna h3{
+    color: #323851;
+    font-family: be_Vietnam_Bold;
+    font-weight: 700;}
+
+.enColumna p{
+    color: #B3B2B7;
+    margin-bottom: 42px;
+    margin-top: 18px;}
+
+.numero {
+    background-color: #F3603B;
+    border-radius: 30px;
+    bottom: 75px;
+    box-sizing: border-box;
+    height: 43px;
+    padding-top: 10px;
+    position: absolute;
+    right: 580px;
+    text-align: center;
+    width: 69px;}
+
+.numero span{
+    background-color: transparent;
+    color: #ffffff;}
+
+/*----------------------------------------------ID's-------------------------------------------------------------*/
+
+#bannerText{
+    color: #000000;
+    font-size: 17px;
+    margin-right: 110px;
+    position: relative;}
+
+#bannerText h1{
+    color: #242E52;
+    font-family: be_Vietnam_Bold;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 67px;
+    margin-bottom: 28px;
+    width: 25.1vw;}
+
+#bannerText p{
+    line-height: 26px;
+    margin-bottom: 28px;}
+
+#navBar li a{
+    color: #242E52;
+    margin-left: 2vw;}
+
+#navBar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;}
+
+#preFooter{
+    background-color: #F3613C;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: -0.01rem;
+    padding: 64px 165px 64px 165px;}
+
+#preFooter button{
+    color: #F3613C;
+    background-color: #ffffff;
+    margin-top: 2.5vh;}
+
+#preFooter h3{
+    font-family: be_Vietnam_Bold;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;}
+
+#they_ve_Said{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20vh;}
+    
+#they_ve_Said  article{
+    padding: 27px;
+    width: 390px;}
+
+#they_ve_Said div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 45px;
+    text-align: center;}
+
+#they_ve_Said h2{
+    color: #242E53;
+    font-family: be_Vietnam_Bold;
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    line-height: 61.41px;
+    margin-bottom: 74px;}
+
+#they_ve_Said h4{
+    color: #242E53;
+    font-family: be_Vietnam_Bold;
+    font-weight: 700;
+    line-height: 25.17px;
+    margin-bottom: 21px;}
+
+#they_ve_Said img{
+    width: 100px;}
+
+#they_ve_Said p{
+    color: #B9B9C1;
+    font-weight: 600;}
+
+/*-------------------------------------------MEDIA QUERIES-------------------------------------------------------*/
