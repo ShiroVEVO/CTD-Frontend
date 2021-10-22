@@ -84,7 +84,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin: 0px 11vw 15vh 11vw;
-    padding: 0px 165px;}
+    padding: 0px 5vw;}
     
 .paralelas h2{
     color: #242E52;
@@ -96,7 +96,7 @@ header{
 
 .enColumna article{
     position: relative;
-    width: 551px;}
+    width: 28.5vw;}
 
 .enColumna h3{
     color: #323851;
@@ -111,12 +111,12 @@ header{
 .numero {
     background-color: #F3603B;
     border-radius: 30px;
-    bottom: 75px;
+    bottom: 10vh;
     box-sizing: border-box;
     height: 43px;
     padding-top: 10px;
     position: absolute;
-    right: 580px;
+    right: 30vw;
     text-align: center;
     width: 69px;}
 
@@ -135,10 +135,10 @@ header{
 #bannerText h1{
     color: #242E52;
     font-family: be_Vietnam_Bold;
-    font-size: 58px;
+    font-size: 3rem;
     font-weight: 700;
-    line-height: 67px;
-    margin-bottom: 28px;
+    line-height: 4.1rem;
+    margin-bottom: 1.75rem;
     width: 25.1vw;}
 
 #bannerText p{
@@ -214,3 +214,112 @@ header{
     font-weight: 600;}
 
 /*-------------------------------------------MEDIA QUERIES-------------------------------------------------------*/
+
+@media (max-width: 375px){
+    /*------------------ELEMENTOS------------------*/   
+    header{
+         display: flex;
+         flex-direction: column;
+         padding: 5vh;}
+
+    header img{
+         width: 100px;}
+
+    header nav, header button{
+         display: none;}
+    
+    html{
+        font-size: 10px;
+        scrollbar-width: none;}
+
+    footer{
+        align-items: center;
+        flex-direction: column-reverse;
+        padding-left: 50px;
+        position: relative;
+        width: 260px;}
+
+    footer form{
+         display: flex;
+         flex-direction: row;
+         margin-bottom: 30px;}
+
+    footer img{
+         margin-left: 0px;}
+
+    footer input[type="email"]{
+         margin-right: 10px;
+         width: 200px;}    
+
+    footer p{
+         left: 100px;
+         position: absolute;
+         top:370px;
+         width: 100vw;}
+
+    /*------------------CLASES---------------------*/
+
+    .enColumna{
+         margin-top: 30px;}
+
+    .enColumna h3{
+         font-weight: 900;
+         left: 70px;
+         position: relative;}
+
+    .numero{
+         bottom: 70px;
+         height: 30px;
+         left: 0px;
+         padding-top: 7px;
+         position: absolute;
+         width: 60px;}
+
+    .paralelas {
+         flex-direction: column-reverse;
+         margin-bottom: 70px;
+         text-align: justify;}
+
+    /*------------------ID's-----------------------*/
+    #bannerText{
+        width: 70vw;}
+
+    #bannerText h1{
+        width: 70vw;}
+
+    #imagenes{
+         align-items: center; 
+         display: flex;
+         flex-direction: column-reverse;
+         width: 220px;}
+
+    #imagenes img{
+         margin-top: 20px;}
+
+    #ladoAlado a{
+       margin-right: 10px;}
+
+    #noInvertible{
+         flex-direction: column;
+         margin-bottom: 70px;}
+
+    #noInvertible article{
+        width: 70vw;}
+    
+    #preFooter{
+        align-items: center;
+        flex-direction: column;
+        padding: 50px;
+        text-align: center;}
+
+   #seccionesFooter{
+       display: flex;
+       flex-direction: row;
+       font-size: 1rem;}
+
+   #they_ve_Said{
+       margin-bottom: 100px;}
+
+   #they_ve_Said article{
+       width: 280px;}
+}
