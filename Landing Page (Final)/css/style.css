@@ -13,11 +13,12 @@
     font-weight: 500;
     margin: 0%;
     text-decoration: none;}
-
+    
 /*--------------------------------------------ELEMENTOS----------------------------------------------------------*/
 
 body{
-    background-color: #ffffff;}
+    background-color: #ffffff;
+    margin: 0px;}
 
 footer *{
     list-style: none;}
@@ -63,9 +64,20 @@ footer p{
     color: #8C8C94;}
 
 header{
+    align-items: center;
     display: flex;
+    height: 10vh;
     justify-content: space-around;
-    padding: 75px 190px 75px 190px;}
+    width: 100%;} 
+
+header label{
+        display: none;
+        height: 30px;
+        padding: 10px;
+        width: 30px;}
+    
+header label:hover{
+        cursor: pointer;}    
 
 /*---------------------------------------------CLASES------------------------------------------------------------*/
 .getStarted{
@@ -80,6 +92,17 @@ header{
     text-align: center;
     width: 134px;}
 
+.menu li a{
+        display: block;
+        padding: 20px;
+        text-decoration: none;}    
+
+.menu ul{
+        display: flex;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;}
+    
 .paralelas{
     display: flex;
     justify-content: space-between;
@@ -145,14 +168,8 @@ header{
     line-height: 26px;
     margin-bottom: 28px;}
 
-#navBar li a{
-    color: #242E52;
-    margin-left: 2vw;}
-
-#navBar ul{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;}
+#botonMenu{
+        display: none;}
 
 #preFooter{
     background-color: #F3613C;
@@ -216,17 +233,21 @@ header{
 /*-------------------------------------------MEDIA QUERIES-------------------------------------------------------*/
 
 @media (max-width: 375px){
+    
+    
+
+    
+
+    
     /*------------------ELEMENTOS------------------*/   
-    header{
-         display: flex;
-         flex-direction: column;
-         padding: 5vh;}
+    header button{
+        display: none;}
+
+    header label{
+        display: block;}
 
     header img{
          width: 100px;}
-
-    header nav, header button{
-         display: none;}
     
     html{
         font-size: 10px;
@@ -267,6 +288,14 @@ header{
          left: 70px;
          position: relative;}
 
+    .menu{
+        margin-left: -100%;
+        position: absolute;
+        width: 70%;}
+    
+    .menu ul{
+        flex-direction: column;}
+
     .numero{
          bottom: 70px;
          height: 30px;
@@ -287,6 +316,22 @@ header{
     #bannerText h1{
         width: 70vw;}
 
+    #botonMenu:checked ~ .menu{
+        margin-left:-30%;
+        margin-top: 50%;
+        background-color: #F3603B;
+        border-radius: 10px;
+    }
+
+    #botonMenu:checked ~ .menu ul li a{
+        color: #ffffff;
+        font-size: 1.3rem;
+    }
+    
+    #iconoDesplegable{
+        width: 30px;
+    }
+
     #imagenes{
          align-items: center; 
          display: flex;
@@ -298,7 +343,7 @@ header{
 
     #ladoAlado a{
        margin-right: 10px;}
-
+    
     #noInvertible{
          flex-direction: column;
          margin-bottom: 70px;}
