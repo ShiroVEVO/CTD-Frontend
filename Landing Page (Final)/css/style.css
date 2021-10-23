@@ -68,6 +68,7 @@ header{
     display: flex;
     height: 10vh;
     justify-content: space-around;
+    padding: 75px 20px 75px 20px;
     width: 100%;} 
 
 header label{
@@ -240,6 +241,9 @@ header label:hover{
 
     
     /*------------------ELEMENTOS------------------*/   
+    header{
+        padding: 0px;
+    }
     header button{
         display: none;}
 
